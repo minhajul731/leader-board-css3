@@ -1,0 +1,48 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Ibarra+Real+Nova&family=Lato&family=League+Spartan:wght@700&family=Poppins:wght@100;400;500;600&display=swap');
+
+/* common style or utilities*/
+body {
+    font-family: 'Antonio', sans-serif;
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+}
+
+/* Top Players Style*/
+.section-title {
+    color: #562EFF;
+    font-size: 24px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.player-name {
+    margin-left: 16px;
+}
